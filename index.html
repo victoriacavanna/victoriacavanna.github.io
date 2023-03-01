@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="/assets/svg/icono.svg">
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="/style.css">
+    <!--Unicons StyleSheet-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,900&family=Teko:wght@500&display=swap" rel="stylesheet">
+    <!--FontAwesome Script-->
+    <script src="https://kit.fontawesome.com/c3c9af520c.js" crossorigin="anonymous"></script>
+    <!--Script Index-->
+    <script src="/index.js" defer></script>
+</head>
+<body>
+    <header >
+        <nav class="nav container">
+            <a href="#inicio"><img src="/assets/svg/logo.svg"></a>
+            <div class="navMenu" id="nav-menu">
+                <ul class="navLista grid" id="nav-lista">
+                    <li class="navItem">
+                        <a href="#inicio" class="navLink">
+                            <p class="navIcon"><i class="fa-solid fa-house"></i></p> Inicio
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#sobremi" class="navLink">
+                            <p class="navIcon"><i class="fa-solid fa-user navIcon"></i></p> Sobre mí
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#experiencia" class="navLink">
+                            <p class="navIcon"><i class="fa-solid fa-laptop-file navIcon"></i></p> Experiencia
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#habilidades" class="navLink">
+                            <p class="navIcon"><i class="fa-solid fa-keyboard navIcon"></i></p> Habilidades
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="#contacto" class="navLink">
+                            <p class="navIcon"><i class="fa-solid fa-phone navIcon"></i></p> Contacto
+                        </a>
+                    </li>
+                </ul>
+                <p class="navClose" id="nav-close"><i class="fa-solid fa-xmark"></i></p>
+            </div>
+
+            <div class="navBtns">
+                <i class="uil uil-moon cambiaModo" id="btnModo"></i>
+                <div class="navToggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Inicio-->
+        <section class="inicio seccion" id="inicio">
+            <div class="inicioContainer container grid">
+                <div class="inicioContenido">
+                    <div class="inicioRedes">
+                        <a href="https://www.linkedin.com/in/victoria-cavanna-a6a245245/" target="_blank" class="inicioRedesIcon">
+                            <p><i class="fa-brands fa-linkedin-in"></i></p>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="inicioRedesIcon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="href="mailto:vcavanna04@gmail.com?subject=Me%20interesa%20comunicarme!"" target="_blank" class="inicioRedesIcon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="inicioIntro">
+                        <h1 class="inicioTitulo"> Hola, soy</h1>
+                        <section class="animacionTexto">
+                            <div class="texto1">
+                                <h2 class="inicioTitulo">Victoria</h2>
+                            </div>
+                            <div class="texto2">
+                                <h2 class="inicioTitulo">Estudiante</h2>
+
+                            </div>
+                            <div class="texto3">
+                                <h2 class="inicioTitulo">Programadora</h2>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+                <a href="#contacto" class="button flexBtn btnContacto">
+                    Contactame<i class="uil uil-message btnIcon"></i>
+                </a>
+                <div class="inicioScroll">
+                    <a href="#sobremi" class="inicioScrollBtn flexBtn">
+                        <i class="uil uil-mouse-alt inicioScrollMouse"></i>
+                        <span class="inicioScrollTexto">Scroll down</span>
+                        <i class="uil uil-arrow-down inicioScrollFlecha"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Sobre mí-->
+        <section class="sobremi seccion" id="sobremi">
+            <h2 class="seccionTitulo">Sobre Mí</h2>
+            <span class="seccionSubtitulo">Un poco acerca de mí</span>
+            <div class="sobremiContainer container">
+                <div class="sobremiContenido">
+                    <p class="sobremiDescripcion">Estudiante en la carrera de Programador Universitario. Entusiasta de aprender más sobre el mundo de la programación.</p>
+                    <div class="sobremiInfo">
+                        <div>
+                            <span class="sobremiInfoTitulo">02+</span>
+                            <span class="sobremiInfoAnios">Años <br> experiencia en Python</span>
+                        </div>
+                        <div>
+                            <span class="sobremiInfoTitulo">01+</span>
+                            <span class="sobremiInfoAnios">Años <br> experiencia en HTML y CSS</span>
+                        </div>
+                        <div>
+                            <span class="sobremiInfoTitulo">05+</span>
+                            <span class="sobremiInfoAnios">Meses <br> experiencia en JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="sobremiBtn">
+                        <a download=" " href="../assets/pdf/VictoriaCavannaCV.pdf" class="button flexBtn">
+                            Descargar CV <i class="fa-solid fa-download btnIcon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Experiencia-->
+        <section class="experiencia seccion" id="experiencia">
+            <h2 class="seccionTitulo">Experiencia</h2>
+            <span class="seccionSubtitulo">Experiencia académica</span>
+            <div class="experienciaContainer container">
+                <div class="experienciaTabs">
+                    <div class="experienciaBtn flexBtn experienciaActive" data-target="#educacion">
+                        <i class="fa-solid fa-graduation-cap experienciaIcon"></i>
+                        Educación
+                    </div>
+                    <div class="experienciaBtn flexBtn"  data-target="#cursos">
+                        <i class="fa-solid fa-desktop experienciaIcon"></i>
+                        Cursos
+                    </div>
+                </div>
+                <div class="experienciaSecciones">
+                    <div class="experienciaContenido experienciaActive" data-content id="educacion">
+                        <div class="experienciaInfo">
+                            <div>
+                                <h3 class="experienciaTitulo"> Educación Secundaria</h3>
+                                <span class="experienciaSubtitulo">Escuela y Liceo Vocacional Sarmiento UNT</span>
+                                <div class="experienciaCalendarioio">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2017-2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                                <span class="experienciaLinea"></span>
+                                
+                            </div>
+                        </div>
+
+                        <div class="experienciaInfo">
+                            <div></div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                                <span class="experienciaLinea"></span>
+                            </div>
+                            <div>
+                                <h3 class="experienciaTitulo"> Idioma Inglés B1.2</h3>
+                                <span class="experienciaSubtitulo">Tucumán - Instituto Follow Me</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2017-2019
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experienciaInfo">
+                            <div>
+                                <h3 class="experienciaTitulo">Programador Universitario </h3>
+                                <span class="experienciaSubtitulo">Facultad de Ciencias Exactas y Tecnología UNT</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    2023-
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="experienciaContenido experiencia" data-content id="cursos">
+                        <div class="experienciaInfo">
+                            <div></div>
+                            <div>
+                                <span class="experienciaCirculo">  </span>
+                                <span class="experienciaLinea">  </span>
+                            </div>
+                            <div>
+                                <h3 class="experienciaTitulo">Programación con Python</h3>
+                                <span class="experienciaSubtitulo">Centro Redes-Unidad Asociada CONICET</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Febrero 2022
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experienciaInfo">
+                            <div>
+                                <h3 class="experienciaTitulo"> Sé programar</h3>
+                                <span class="experienciaSubtitulo">Ministerio de Desarrollo Productivo de la Nación, INTI y CESSI</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Marzo - Junio 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                                <span class="experienciaLinea"></span>
+                            </div>
+                        </div>
+
+                        <div class="experienciaInfo">
+                            <div></div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                                <span class="experienciaLinea"></span>
+                            </div>
+                            <div>
+                                <h3 class="experienciaTitulo">Yo puedo programar</h3>
+                                <span class="experienciaSubtitulo">Junior Achievement Argentina y Microsoft</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Agosto 2022
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experienciaInfo">
+                            <div>
+                                <h3 class="experienciaTitulo"> Programación desde Cero</h3>
+                                <span class="experienciaSubtitulo">EGG</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Junio - Agosto 2022
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experienciaCirculo"></span>
+                                <span class="experienciaLinea"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="experienciaInfo">
+                            <div></div>
+                            <div>
+                                <span class="experienciaCirculo">  </span>
+                            </div>
+                            <div>
+                                <h3 class="experienciaTitulo">Programa Oracle Next Education</h3>
+                                <span class="experienciaSubtitulo">Alura LATAM - Oracle</span>
+                                <div class="experienciaCalendario">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                Julio - Febrero 2023 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!---Habilidades-->
+        <section class="habilidades seccion" id="habilidades">
+            <h2 class="seccionTitulo">Habilidades</h2>
+            <span class="seccionSubtitulo">Habilidades técnicas</span>
+            <div class="habilidadesContainer container grid">
+                <div>
+                    <div class="habilidadesContenido habilidadesOpen">
+                        <div class="habilidadesInfo">
+                            <i class="uil uil-brackets-curly habilidadesIcon"></i>
+                            <div>
+                                <h2 class="habilidadesTitulo">Tecnologías FrontEnd</h2>
+                                <span class="habilidadesSubtitulo">Más de 1 año</span>
+                            </div>
+                            <i class="uil uil-angle-down habilidadesFlecha"></i>
+                        </div>
+                        <div class="habilidadesLista grid">
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">HTML</h3>
+                                    <span class="habilidadesNumero">90%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesHtml">
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">CSS</h3>
+                                    <span class="habilidadesNumero">80%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesCss">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">Javascript</h3>
+                                    <span class="habilidadesNumero">55%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesJs">
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">TypeScript</h3>
+                                    <span class="habilidadesNumero">35%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesTs">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidadesContenido habilidadesOpen">
+                        <div class="habilidadesInfo">
+                            <i class="uil uil-brackets-curly habilidadesIcon"></i>
+                            <div>
+                                <h2 class="habilidadesTitulo">Tecnologías BackEnd</h2>
+                                <span class="habilidadesSubtitulo">Más de 1 año</span>
+                            </div>
+                            <i class="uil uil-angle-down habilidadesFlecha"></i>
+                        </div>
+                        <div class="habilidadesLista grid">
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">Python</h3>
+                                    <span class="habilidadesNumero">80%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesPy">
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">MySQL</h3>
+                                    <span class="habilidadesNumero">50%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesSQL">
+                                        
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="habilidadesItem">
+                                <div class="habilidadesTitulos">
+                                    <h3 class="habilidadesLenguaje">Java</h3>
+                                    <span class="habilidadesNumero">45%</span>
+                                </div>
+                                <div class="habilidadesBarra">
+                                    <span class="habilidadesPorcentaje habilidadesJava">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contacto-->
+        <section class="contacto seccion" id="contacto">
+            <h2 class="seccionTitulo">Contactame</h2>
+            <span class="seccionSubtitulo">Comunicate conmigo</span>
+            <div class="contactoContainer container grid">
+                <div class="contactoContenido">
+                    <div class="contactoInfo">
+                        <div class="contactoCard">
+                            <h3 class="contactoCardTitulo">Email</h3>
+                            <i class="fa-solid fa-envelope contactoIconMail"></i>
+                            <span class="contactoCardInfo">vcavanna04@gmail.com</span>
+                        </div>
+                        <div class="contactoCard">
+                            <h3 class="contactoCardTitulo">Celular</h3>
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="contactoCardInfo">+54 381 384 6942</span>
+                        </div>
+                        <div class="contactoCard">
+                            <h3 class="contactoCardTitulo">Linkedin</h3>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span class="contactoCardInfo">www.linkedin.com/in/victoriaCavanna</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactoContenido">
+                    <form action="" class="contactoForm">    
+                      <div class="contactoFormInput">
+                        <label for="">Nombre</label>
+                        <input type="text" id="" name="name">
+                      </div>
+
+                      <div class="contactoFormInput">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                      </div>
+
+                      <div class="contactoFormInput">
+                        <label for="subject">Mensaje</label>
+                        <textarea id="subject" name="subject" cols="30" rows="10"></textarea>
+                      </div>
+                      <button type="submit" class="button btnContacto">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <a href="#inicio"><img src="/assets/svg/logo.svg"></a>
+            <span>Proyecto Ticmas Febrero 2023</span>
+            <span>© Victoria Cavanna</span>
+        </div>
+    </footer>
+    <a href="#inicio" class="scrollArriba" id="scroll-arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+</body>
+</html>
